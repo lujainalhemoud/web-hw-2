@@ -3,6 +3,16 @@ html {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* .ro{
+  background:linear-gradient(to left,  rgb(0, 153, 255) ,lightpink,yellow
+}
+.vo{
+  background-color:lightcyan;
+    text-decoration-style: initial;
+} */
+.imy{
+  float: right;
+}
 
 body {
   width: 100%;
@@ -17,12 +27,34 @@ header {
 header img {
   width: 80px;
 }
+.ro{
+  color: black;
+  background:linear-gradient(to left, rgb(0, 132, 255) ,lightpink,yellow)
+ 
+}
+.center{
+  margin-left: center;
+  margin-right:center;
+  color: black;
+ 
+}
+table{
+  text-align: center;
+  border-radius: 3px;
+  color: #00b4d8;
+  padding: 10px;
+ margin-right: 400px;
+ 
+}
 
 .nav-container {
   float: right;
   top: 5px;
 }
-
+.vo{
+  background-color:lightcyan;
+    text-decoration-style: initial;
+}
 .nav-container ul {
   margin: 0;
 }
@@ -63,3 +95,80 @@ header img {
 .imo {
   margin: 350px;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00b4d8;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+
+.mi {
+  text-align: center;
+  font-size: 25px;
+  background: linear-gradient(to left, blue, rgb(251, 255, 0), lightblue);
+  margin: 800px 10px 6px 10px;
+}
+.uo{
+  color: rgb(0, 89, 255);
+  font-size: 19px;
+  text-align: right;
+}
+
+.do{
+  color: black;
+  
+  font-size: 20px;
+  text-align: center;
+}
+.po{
+  float: right;
+  font-size: 20px;
+  color: black;
+  height: 200px;
+ margin: 0px 30px 4px 30px;
+  animation-name: blue-to-white;
+  animation-duration:1s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-direction: alternate-reverse;
+}
+
+.pa {
+  
+  color: rgb(0, 102, 255);
+  font: size 22px;
+  margin-top: 100px;
+ 
+  animation-name: white-to-orange;
+        animation-duration:1s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-direction: alternate-reverse;
+}
+
+
+@keyframes  blue-to-white {
+  0% {
+    background: white;
+    transform: translate(0px,0px);
+}
+30%{
+  background: darkcyan;
+  transform: translate(10px,10px);
+}
+100% {
+  background:snow;
+  transform: translate(20px,20px);
+}
+
+
+
+
+
+
+
